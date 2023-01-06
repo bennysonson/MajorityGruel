@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/addRecipe.css" />
+    <script src="./js/addRecipe.js" type="module"></script>
+    <script src="./js/other.js"></script>
+    <script src="./js/img.js"></script>
+    <title>Add Recipe</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <nav class="navbar navbar-dark bg-dark" id="nav">
+            <h1 class="justify-content-md-center my-3 mx-3 text-white">Majority Gruel</h1>
+
+            <span class="float-end" id="homeButton" style="margin: 20px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-house-door"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+                </svg>
+            </span>
+        </nav>
+        <style>
+            .directions {
+                vertical-align: bottom;
+            }
+        </style>
+        <form>
+            <div class="mb-3 my-3 mx-3">
+                <label for="recipeName" class="form-label">Name</label>
+                <input type="text" id="recipeName" class="form-control" placeholder="Recipe Name">
+            </div>
+            <div class="mb-3 my-3 mx-3">
+                <label for="recipeDescription" class="form-label">Description</label>
+                <textarea class="form-control" rows="3" id="recipeDescription" placeholder="Recipe Description"></textarea>
+            </div>
+            <!-- <div class="mb-3 my-3 mx-3">
+                <label for="recipePhoto" class="form-label">Photo</label>
+                <img class="my-2" id="imgPreview" src="image.png" width="460" height="345" hidden>
+                <form method="post" enctype="multipart/form-data" action="/upload">
+                    <input class="form-control" type="file" id="recipePhoto" name="file">
+                </form>
+            </div> -->
+            <div class="mb-3 my-3 mx-3">
+                <label for="recipeDuration" class="form-label">Duration</label><br>
+                <div class="row">
+                    <div class="col">
+                        <input class="form-control w-50" type="text" id="recipeDurationHours" placeholder="">
+                        <label for="recipeDurationHours" class="form-label">Hours</label>
+                    </div>
+                    <div class="col">
+                        <input class="form-control w-50" type="text" id="recipeDurationMins" placeholder="">
+                        <label for="recipeDurationMinutes" class="form-label">Minutes</label>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3 my-3 mx-3">
+                <label class="form-label">Difficulty</label>
+                <!-- Inspired from https://bbbootstrap.com/snippets/animated-rating-stars-18298447 -->
+                <div class="stars">
+                    <!-- <input class="star star-5" id="star-5" type="radio" name="star" />
+                    <label class="star star-5" for="star-5"></label>
+                    <input class="star star-4" id="star-4" type="radio" name="star" />
+                    <label class="star star-4" for="star-4"></label> -->
+                    <input class="star star-3" id="star-3" type="radio" name="star" />
+                    <label class="star star-3" for="star-3"></label>
+                    <input class="star star-2" id="star-2" type="radio" name="star" />
+                    <label class="star star-2" for="star-2"></label>
+                    <input class="star star-1" id="star-1" type="radio" name="star" />
+                    <label class="star star-1" for="star-1"></label>
+                </div>
+            </div>
+            <div class="mb-3 my-3 mx-3">
+                <label for="ingredientList" class="form-label">Ingredient List</label>
+                <ul class="ingredientList list-group" id="ingredientList"></ul>
+                <input class="form-control w-50 my-2" type="text" id="ingredientAdd" placeholder="Add an ingredient">
+                <button type="button" class="btn btn-secondary" id="ingredientAddButton">Add to List</button>
+            </div>
+            <div class="mb-3 my-3 mx-3">
+                <label class="form-label">Directions</label>
+                <div id="directions" class="directions">
+                    <div class="mb-3 my-1 mx-3">
+                        <label for="directionsStep" class="form-label">Step 1</label>
+                        <textarea class="form-control" rows="3" id="directionstep1"></textarea>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary" id="directionsAddButton">Add Next Step</button>
+                <button type="button" class="btn btn-secondary" id="directionsDeleteButton">Delete Last Step</button>
+
+            </div>
+            <div class="mb-3 my-3 mx-3">
+                <button type="button" class="btn btn-primary btn-lg" id="addToCookbookButton">Add to Cookbook</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

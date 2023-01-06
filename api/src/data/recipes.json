@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Chocolate Chip Cookies",
+      "description": "Delicious and simple chocolate chip cookies",
+      "imageSource": "/images/cookie.jpg",
+      "durationHours": 0,
+      "durationMin": 30,
+      "difficulty": 3,
+      "ingredientList": ["2 cups of flour", "1 stick of butter", "2 eggs", "1 cup of chocolate chips"],
+      "directions": ["Preheat the oven to 350 degrees fahrenheit", "Mix all the ingreidents together", "Scoop the dough into golf-ball sized mounds", "Bake for 12 min"]
+    },
+    {
+      "id": 2,
+      "name": "Tea",
+      "description": "Simple tea",
+      "imageSource": "/images/tea.jpg",
+      "durationHours": 0,
+      "durationMin": 5,
+      "difficulty": 1,
+      "ingredientList": ["Tea bag", "hot water"],
+      "directions": ["Put tea bag on hot water until the tea is the desired color"]
+    },
+    {
+      "id": 3,
+      "name": "PB & J",
+      "description": "A classic and simple sandwich",
+      "imageSource": "/images/sandwich.jpg",
+      "durationHours": 0,
+      "durationMin": 10,
+      "difficulty": 2,
+      "ingredientList": ["Peanut butter", "Jelly", "Two slices of bread"],
+      "directions": ["Put the desired amount of peanut butter on one piece of bread", "Put the desired amount of jelly on the other piece of bread", "Put the two pieces together"]
+    }
+]

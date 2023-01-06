@@ -1,0 +1,40 @@
+body {
+  background-color: #EEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nav {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* bottom left buttons */
+#end-button {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+#user-info {
+  margin-top: 10px;
+}
+
+#main-user-content {
+  display: flex;
+  justify-content: start;
+}
+
+#user-details {
+  align-self: center;
+  padding: 10px;
+}
+
+.main-recipe-content {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+  align-content: center;
+}

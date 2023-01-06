@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/other.js"></script>
+    <script src="./js/profile.js" type="module"></script>
+    <title>Majority Gruel Profile</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <nav class="navbar navbar-dark bg-dark" id="nav">
+            <h1 class="justify-content-md-center mx-3 my-3 text-white">Majority Gruel</h1>
+            <span class="float-end" id="homeButton" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-house-door" viewBox="0 0 16 16">
+                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                </svg>
+            </span>
+        </nav>
+        <div id="user-info">
+            <div id="main-user-content">
+                <span id="user-details"><img src="./img/profile.png" height="130px" width="130px" id="profilePic" alt="Profile Pic"></span>
+                <span id="user-details">
+                    <h1 id="username"></h1>
+                    <p id="name"></p>
+                </span>
+            </div>
+            <div id="end-button">
+                <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Edit user info</a> -->
+                
+            </div>
+        </div>
+        <br>
+        <button id="logoutButton" class="btn btn-primary btn-lg" style="position: absolute; bottom: 0; margin: 20px">Logout</button>
+    </div>
+</body>
+
+</html>

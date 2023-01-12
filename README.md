@@ -1,15 +1,8 @@
-# Final Project
+# MajorityGruel
 
-Group I: Benson Liu, Ramon Sanchez, Alexa Simeonsson
+By: Benson Liu, Ramon Sanchez, Alexa Simeonsson
 
-## Project Information
-Project title: **Meal Deciding App**
-
-### What needs to get done?
-- [x] Readme
-- [ ] Part 1: Finished Core Features
-- [ ] Part 2: Offline Functionality
-- [ ] Part 3: Installability
+MajorityGruel is a meal deciding app which allows users to register and login, upload, view and browse recipes, favorite recipes, and take 'recipe quizzes'. Recipe quizzes lets users select recipes from their favorite recipes list, and dynamically creates a quiz based on the entered number of participants. Participants are asked to rate each recipe and the results are outputted as a sorted list of recipes from highest rated to lowest.
 
 ### Pages in our app
 | Page      | Status    | Wireframe |
@@ -40,19 +33,6 @@ Project title: **Meal Deciding App**
 | GET	    | /recipes/:recipeId | Retrieves a recipe by its ID|
 | DELETE    | /recipes/:recipeId | Deletes a recipe by its ID |
 | PUT       | /recipes/:recipeId | Updates a recipe by its ID |
-
-## Contributions
-|Part       | Item      | Progress  |Contributer(s)|Notes   |
-| --------- | --------- | --------- | --------- | --------- |
-|1          |M2 repo setup| finished | Alexa     |           |
-|2          |Add RDB    |in progress   |Benson      |Needs testing|
-|2          |RDB TESTING    |COMPLETE|Benson and Alexa|we were missing "mysql" module!!|
-|3          |Update API Endpoints | started  | Benson|        |
-|4          |Profile Page| basically done  | Alexa|        |
-|4          |Recipe Page| progress (template without api data is there) | Alexa|        |
-|4          |Add Recipe Page| in progress | Benson | POST issues and some bugs |
-|6          |Screencast |           |           |           |
-
 
 ## Updates Design
 Revised design below (removed features are ~~struck out~~, added details are **bold**):

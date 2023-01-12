@@ -10,13 +10,13 @@ MajorityGruel is a meal deciding app which allows users to register and login, u
 | Login     | 40%       |           |
 | Profile   | 70% (just need to use api data)|           |
 | Create New User| 0%   |              |
-| Home      | 100% |[Wireframe](https://github.ncsu.edu/engr-csc342/csc342-2022Fall-groupI/blob/3e1479bf8a5dd6a9130f36c169a3155c72f46017/Proposal/Wireframes/MDAFlow1.pdf)|
-| Add Recipe| 90% (Need Image support)|[Wireframe](https://github.ncsu.edu/engr-csc342/csc342-2022Fall-groupI/blob/3e1479bf8a5dd6a9130f36c169a3155c72f46017/Proposal/Wireframes/MDAFlow1.pdf)|
-|Browse Recipes| 90% (Need Image support)|[Wireframe](https://github.ncsu.edu/engr-csc342/csc342-2022Fall-groupI/blob/3e1479bf8a5dd6a9130f36c169a3155c72f46017/Proposal/Wireframes/MDAFlow2&3.pdf)|
-|Favorite Recipes| 50% (just browse recipes page but filtered) |[Wireframe](https://github.ncsu.edu/engr-csc342/csc342-2022Fall-groupI/blob/3e1479bf8a5dd6a9130f36c169a3155c72f46017/Proposal/Wireframes/MDAFlow2&3.pdf)|
-|Recipe| 90% (need image support)|[Wireframe](https://github.ncsu.edu/engr-csc342/csc342-2022Fall-groupI/blob/3e1479bf8a5dd6a9130f36c169a3155c72f46017/Proposal/Wireframes/MDAFlow4a.pdf)|
-|New Quiz Form| 100% |[Wireframe](https://github.ncsu.edu/engr-csc342/csc342-2022Fall-groupI/blob/3e1479bf8a5dd6a9130f36c169a3155c72f46017/Proposal/Wireframes/MDAFlow4a.pdf)|
-|Take Quiz Form| 100% |[Wireframe](https://github.ncsu.edu/engr-csc342/csc342-2022Fall-groupI/blob/3e1479bf8a5dd6a9130f36c169a3155c72f46017/Proposal/Wireframes/MDAFlow4a.pdf)|
+| Home      | 100% |[Wireframe](https://github.com/bennysonson/MajorityGruel/blob/master/Wireframes/MDAFlow1.png)|
+| Add Recipe| 90% (Need Image support)|[Wireframe](https://github.com/bennysonson/MajorityGruel/blob/master/Wireframes/MDAFlow1.png)|
+|Browse Recipes| 90% (Need Image support)|[Wireframe](https://github.com/bennysonson/MajorityGruel/blob/master/Wireframes/MDAFlow2%263.png)|
+|Favorite Recipes| 50% (just browse recipes page but filtered) |[Wireframe](https://github.com/bennysonson/MajorityGruel/blob/master/Wireframes/MDAFlow2%263.png)|
+|Recipe| 90% (need image support)|[Wireframe](https://github.com/bennysonson/MajorityGruel/blob/master/Wireframes/MDAFlow4a.png)|
+|New Quiz Form| 100% |[Wireframe](https://github.com/bennysonson/MajorityGruel/blob/master/Wireframes/MDAFlow4a.png)|
+|Take Quiz Form| 100% |[Wireframe](https://github.com/bennysonson/MajorityGruel/blob/master/Wireframes/MDAFlow4a.png)|
 
 
 ### API endpoints
